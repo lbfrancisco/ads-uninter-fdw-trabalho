@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="../styles.css">
+  <title>Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Sobre Mim</a></li>
+        <li><a href="/pages/formacao.html">Formação</a></li>
+        <li><a href="#" style="font-weight: bold;color:#007BFF">Portfólio</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio">
+      <h3>Portfólio</h3>
+
+      <div class="portfolio-cards">
+        <div class="portfolio-card" onclick="window.open('https://github.com/lbfrancisco/portfolio', '_blank')">
+          <h4>Portfolio</h4>
+          <p>Meu portfólio pessoal, apresentando meus principais projetos, sobre mim, formação e outros. Feito com TypeScript e React</p>
+          <span class="github-link">Ver no GitHub &rarr;</span>
+        </div>
+
+        <div class="portfolio-card" onclick="window.open('https://github.com/lbfrancisco/next-saas-rbac', '_blank')">
+          <h4>Next.js SaaS + RBAC</h4>
+          <p>Este projeto possui todo boilerplate necessário para a criação de um SaaS multi-tenant. Feito com Next.js incluindo autenticação e autorização por RBAC.</p>
+          <span class="github-link">Ver no GitHub &rarr;</span>
+        </div>
+      </div>
+      
+      <p>Caso você esteja interresado em ver meu portfólio real, sinta-se a vontade pra confirir o link abaixo: </p>
+      <a href="https://lbfrancisco.dev/" target="_blank">lbfrancisco.dev</a>
+    </section>
+  </main>
+</body>
+</html>
